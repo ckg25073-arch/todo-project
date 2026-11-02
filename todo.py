@@ -6,7 +6,7 @@ todos = [
 print("TODO一覧")
 print("状態と優先度")
 
-print("すべてのTODO")
+print(f"すべてのTODO（{len(todos)}件）")
 
 for todo in todos:
     if todo["done"]:
