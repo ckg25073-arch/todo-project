@@ -4,7 +4,7 @@ todos = [
 ]
 
 print("TODO一覧")
-print("状態と優先度：高・中・低")
+print("状態と優先度：高・中・低／[完了]は完了済み")
 
 print(f"すべてのTODO（{len(todos)}件）")
 
